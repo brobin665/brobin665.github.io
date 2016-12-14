@@ -1,0 +1,94 @@
+h1 a{
+	color:#e9a825;
+}
+
+header
+{
+	height:10%;
+	text-align: center;
+	border-top: thick;
+	border-top-color:#e9a825;
+	font-style: italic;
+	font-family:'Georgia', serif;
+	color:#e9a825;
+}
+header p
+{
+	font-size:20px;
+}
+body{
+	font-family:'Georgia', serif;
+}
+#social{
+	padding-top: 1%;
+	padding-left:2%;
+}
+.navbar-default
+{
+	border-width:thin;
+	border-radius: 2;
+	border-color:#DCD7D8;
+	width:70%;
+	margin-left: 15%;
+	height: 10%;
+}
+.navbar-default .navbar-brand:hover,
+.navbar-default .navbar-brand:focus,
+.navbar-default .navbar-nav > li > a:hover,
+.navbar-default .navbar-nav > li > a:focus {
+    color: #e9a825;
+}
+/* Navbar links */
+.navbar-default .navbar-nav > li > a {
+  font-size: 16px;
+}
+
+.navbar-header .navbar-toggle {
+  color: #e9a825;
+}
+
+.navbar-header .navbar-toggle:hover,
+.navbar-header .navbar-toggle:focus {
+  background-color: #e9a825;
+	color:#DCD7D8;
+}
+
+h4{
+	color:#e9a825;
+}
+
+#content{
+	padding:3%;
+}
+
+
+#footer {
+	margin-left: 15%;
+	border-width:thin;
+	border-radius: 2;
+	border-color:#DCD7D8;
+	width:70%;
+	text-align: center;
+	height:5%;
+	
+}
+
+#footer p>a{
+	color:gray;
+}
+#footer p>a:hover,
+#footer p>a:focus
+{
+	color: #e9a825;
+}
+
+#first, #left{
+	margin-right:50%;
+}
+
+#second, #right{
+	
+}
+
+
+
