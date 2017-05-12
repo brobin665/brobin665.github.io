@@ -60,22 +60,64 @@
 		
  		<div class="container">
   		<h2>Cartographic Projects</h2>
-
-			  <div class="panel-group" id="accordion">
+				
+				<div class="panel-group" id="accordion">
 				<div class="panel panel-default">
 				  <div class="panel-heading">
 					<h4 class="panel-title">
-					  <a data-toggle="collapse" data-parent="#accordion" href="#collapse1">Longform Infographic</a>
+					  <a data-toggle="collapse" data-parent="#accordion" href="#collapse1">Cycle Routes Duluth</a>
 					</h4>
 				  </div>
 				  <div id="collapse1" class="panel-collapse collapse in">
+					<div class="panel-body">
+						<div  class="col-md-8 ">
+								 <video width="80%" height="60%" controls>
+  								<source src="assets/575.mp4" type="video/mp4">
+  								Your browser does not support the video tag.
+								</video> 
+						</div>
+						<div class="col-md-4">
+								<h4>Cycle Routes Duluth, Geog 574 575 576, UW-Madison</h4>
+							<p> This web application was completed as a group project with the help of Kim Sundeen, Ian Bachman-Sanders, and Johnmark Fisher for the final project in a database course, UI/UX/UE course, and a web and android application course. After speaking with a local cycling organization in Duluth, we decided to create a web application which would provide the safest, most interesting cycling routes throughout the Duluth area. To achieve this, we acquired Tweets from the Duluth area, a county level road dataset, a cyclist density map from Strava.com, and list of local attractions from tripadvisor.com. All of the acquired data was then put into a PostgreSql database which is hosted on the UW-Madison Geography Department server. We then utilized the PgRouting library to query a modified county road dataset which incorporated the rider density data from Strava.com. The application was developed in Eclipse, and built as a Java Servlet Page. We make use of the Java Database Connection library and AJAX calls via a HttpServlet page to request and query the dataset. The app makes use of the Google Maps JS API, and includes the ability to view tweets, attractions, create new markers, and request a bike route between two points. The requested route is displayed on the map, and is accompanied by information regarding the length, elevation, and a list of street names to follow along the path. In the future, we plan to make the application more mobile friendly, and develop an android application with similar functionality, as well as continue to develop and improve the routing functionality. View the application at <a id="cycle-routes" href="http://grad.geography.wisc.edu:8081/CycleRoutesWeb/">Cycle Routes Duluth</a></p>
+								
+						</div>
+					</div>
+				  </div>
+				</div>
+				<div class="panel panel-default">
+				  <div class="panel-heading">
+					<h4 class="panel-title">
+					  <a data-toggle="collapse" data-parent="#accordion" href="#collapse2">Visual Coordination</a>
+					</h4>
+				  </div>
+				  <div id="collapse2" class="panel-collapse collapse">
+					<div class="panel-body">
+						<div  class="col-md-8 ">
+								<img src="assets/VisualCoordination.png" class="img-responsive img-thumbnail" alt="Visual Coordination" height="100%">
+						</div>
+						<div class="col-md-4">
+								<h4>Visual Coordination, Geog 575, UW-Madison</h4>
+							<p> The purpose of this lab was to create a visual coordination of data through the use of the Data Driven Documents JavaScript library (D3.js). I chose to represent data from the State Tobacco Activities Tracking and Evaluation (STATE) system, which conducts the Tobacco Use and Supplement to the Current Population Survey. This visualization shows the current and former use of three tobacco user groups, Cigar, Cigarette, and Smokeless Tobacco, by state. To create this visualization, I collected and simplified the data, chose an appropriate projection, and utilized the D3.js library to represent the data on the map, as well as in a coordinated bar chart. I made use of the JQuery library to incorporate interactions between the map, bar chart, and user. Currently, this data visualization is best viewed on computer screens, and could be improved by implementing a more responsive design. View the entire webpage and its interaction here <a id="coordinated-vis-link" href="https://brobin665.github.io/D3-coordinated-vis/index.html">Visual Coordination</a>
+							</p>
+								
+						</div>
+					</div>
+				  </div>
+				</div>
+				<div class="panel panel-default">
+				  <div class="panel-heading">
+					<h4 class="panel-title">
+					  <a data-toggle="collapse" data-parent="#accordion" href="#collapse3">Longform Infographic</a>
+					</h4>
+				  </div>
+				  <div id="collapse3" class="panel-collapse collapse">
 					<div class="panel-body">
 						<div  class="col-md-8 ">
 								<img src="assets/LongformInfographic.png" class="img-responsive img-thumbnail" alt="Longform Infographic" height="100%">
 						</div>
 						<div class="col-md-4">
 								<h4>Longform Infographic, Geog 572, UW-Madison</h4>
-								<p> The purpose of this lab was to design a longform infographic that tells a compelling story, as well make use of a bivariate map. I choose to tell the story of the gas station brand,Kwik Trip, and compare the number of Kwik Trip gas stations in Wisconsin to other gas station brands. In order to complete this lab, I used Adobe Illustrator to design the layout, Microsoft Excel to modify datasets and create a graph, and ArcMap to create the bivariate map. There are a few ways to improve this infographic. First off, I can use icons and images to replace some of the text in the lower half of the inforgraphic. Secondly, I could simplify the layout, by removing either the white boxes behind the text, or the red bars defining sections, which serve the same purpose, and just add visual complexity to the infographic, without providing any new information.
+								<p> The purpose of this lab was to design a longform infographic that tells a compelling story, as well make use of a bivariate map. I choose to tell the story of the gas station brand, Kwik Trip, and compare the number of Kwik Trip gas stations in Wisconsin to other gas station brands. In order to complete this lab, I used Adobe Illustrator to design the layout, Microsoft Excel to modify datasets and create a graph, and ArcMap to create the bivariate map. There are a few ways to improve this infographic. First off, I can use icons and images to replace some of the text in the lower half of the infographic. Secondly, I could simplify the layout, by removing either the white boxes behind the text, or the red bars defining sections, which serve the same purpose, and just add visual complexity to the infographic, without providing any new information.
 								</p>
 						</div>
 					</div>
@@ -84,17 +126,17 @@
 				<div class="panel panel-default">
 				  <div class="panel-heading">
 					<h4 class="panel-title">
-					  <a data-toggle="collapse" data-parent="#accordion" href="#collapse2">Digital Terrain Representation</a>
+					  <a data-toggle="collapse" data-parent="#accordion" href="#collapse4">Digital Terrain Representation</a>
 					</h4>
 				  </div>
-				  <div id="collapse2" class="panel-collapse collapse">
+				  <div id="collapse4" class="panel-collapse collapse">
 					<div class="panel-body">
 						<div  class="col-md-8 ">
 								<img src="assets/Lab2_with_photos.png" class="img-responsive img-thumbnail" alt="Digital Terrain Representation">
 						</div>
 						<div class="col-md-4">
 								<h4>Digital Terrain Representation, Geog 572, UW-Madison</h4>
-								<p> The purpose of this lab was to create a bike route for a hypothetical international cycling union, and to map that route with representation of the terrain along the route. I recently took a road trip out to the western United States, and used several stops from my own trip as inspiration for this route.  Software I used included Google Maps, to create the route, ArcMap to create the file to hold the route from Google Maps, as well as to modify and collect the landcover, DEM, and satelite data, Adobe Photoshop to create the shaded relief layer, and Adobe Illustrator to create the layout for the map. To further enhance this project, I could move the legend, and the list of stops along the route over the corners of the map which don't include stops along the routes.  
+								<p> The purpose of this lab was to create a bike route for a hypothetical international cycling union, and to map that route with representation of the terrain along the route. I recently took a road trip out to the western United States, and used several stops from my own trip as inspiration for this route.  Software I used included Google Maps, to create the route, ArcMap to create the file to hold the route from Google Maps, as well as to modify and collect the landcover, DEM, and satellite data, Adobe Photoshop to create the shaded relief layer, and Adobe Illustrator to create the layout for the map. To further enhance this project, I could move the legend, and the list of stops along the route over the corners of the map which don't include stops along the routes. 
 								</p>
 						</div>
 					</div>
@@ -103,10 +145,10 @@
 				<div class="panel panel-default">
 				  <div class="panel-heading">
 					<h4 class="panel-title">
-					  <a data-toggle="collapse" data-parent="#accordion" href="#collapse3">Aesthetic Style</a>
+					  <a data-toggle="collapse" data-parent="#accordion" href="#collapse5">Aesthetic Style</a>
 					</h4>
 				  </div>
-				  <div id="collapse3" class="panel-collapse collapse">
+				  <div id="collapse5" class="panel-collapse collapse">
 					<div class="panel-body">
 						<div  class="col-md-8 ">
 							 <div class="embed-responsive embed-responsive-16by9">
@@ -134,7 +176,7 @@
 	<footer>
    
 	   <div class="panel panel-default" id="footer">
-		   <div class="panel-body"><h5> &copy; 2016 Brian Robinson Portfolio
+		   <div class="panel-body"><h5> &copy; 2017 Brian Robinson Portfolio
 		   <a   href="https://twitter.com/hawaiianbrian74"><img src="assets/Twitter_Logo_Blue.png" width="32px" height="32px" alt="Follow me on Twitter"></a>
 		   <a  href="https://www.linkedin.com/in/brian-robinson-8b248493"><img src="assets/In-2C-34px-R.png" alt="Follow me on LinkedIn"></a>
 		   <a  href="https://github.com/brobin665"><img src="assets/GitHub-Mark-32px.png" alt="Follow me on Github"></a>
